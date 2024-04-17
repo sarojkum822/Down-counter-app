@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.counter-input {
+  top: 50;
+  right: 50;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid black;
+}
+
+input {
+  width: 70px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.timer2 {
+  display: flex;
+  justify-content: center;
+}
+.timer2 div {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.timer2 span {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
